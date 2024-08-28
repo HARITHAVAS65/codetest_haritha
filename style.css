@@ -2,11 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Times New Roman', Times, serif;
 } 
-
-.btn {
+ .btn {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
+ } 
+  
+ button { 
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+ }
